@@ -1,7 +1,6 @@
 flask
 pandas
 numpy
-math
 train_test_split
 LinearRegression
 pickle
