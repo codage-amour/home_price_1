@@ -1,8 +1,7 @@
 flask
 pandas
 numpy
-train_test_split
-LinearRegression
+math
+scikit-learn
 pickle
 json
-math
