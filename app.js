@@ -26,7 +26,7 @@ function getBathValue() {
     var location = document.getElementById("uiLocations");
     var estPrice = document.getElementById("uiEstimatedPrice");
   
- var url = "http://127.0.0.1:5000/./predict_home_price"; 
+ var url = "https://home-price-1gu.onrender.com/./predict_home_price"; 
 
   
     $.post(url, {
@@ -43,7 +43,7 @@ function getBathValue() {
   
   function onPageLoad() {
     console.log( "document loaded" );
-    var url = "http://127.0.0.1:5000/get_location_names";
+    var url = "https://home-price-1gu.onrender.com/get_location_names";
     // var url = "/api/get_location_names"; 
     $.get(url,function(data, status) {
         console.log("got response for get_location_names request");
